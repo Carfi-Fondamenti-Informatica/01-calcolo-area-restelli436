@@ -3,13 +3,14 @@ using namespace std;
 
 int main(){
 
-float a, b, c, Areatriangolo, Areaquadrato, Arearettangolo, Areatrapezio;
+float a, b, c;
+
 
 
 cin >> a >> b >> c;
 
 
-float Areatriangolo = (a+b) / 2;
+float Areatriangolo = (a * b) / 2;
 float Areaquadrato = (a * a);
 float Arearettangolo = (a * b);
 float Areatrapezio = ((a+b) * c)/2;
