@@ -2,13 +2,13 @@
 using namespace std;
 
 int main(){
-//Qui vanno definite le variabili
-float a, b, c;
+
+float a, b, c, Areatriangolo, Areaquadrato, Arearettangolo, Areatrapezio;
 
 
 cin >> a >> b >> c;
 
-//Qui va scritto il codice per eseguire i calcoli richiesti
+
 float Areatriangolo = (a+b) / 2;
 float Areaquadrato = (a * a);
 float Arearettangolo = (a * b);
